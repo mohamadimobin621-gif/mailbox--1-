@@ -14,8 +14,259 @@
 
 <body>
   <main class="container-fluid">
-    <section class="row flex-row-reverse">
+    <section class="row">
 
+ <aside class="col-md-3">
+        <h3>w3school <span>.com</span></h3>
+        <!-- Button trigger modal -->
+        <div id="btn">
+          <button type="button" class="btn btn-primary w-100 py-4 " data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            new massage<i class="bi bi-pen-fill m-2"></i>
+          </button>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-danger">
+                <h1 class="modal-title fs-5 text-light" id="exampleModalLabel ">send email</h1>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <form class="p-5">
+                <label for="#">to</label><br>
+                <input class="w-100" type="text">
+
+                <label class="mt-3" for="#">form</label><br>
+                <input class="w-100" type="text">
+
+                <label class="mt-3" aria-hidden="true">subject</label><br>
+                <input class="w-100" type="text">
+
+                <div class="mt-3">
+                  <input class="w-100" type="text" placeholder="What's on your mind?">
+                </div>
+
+                <div class="d-flex justify-content-between mt-3" >
+                 
+                 
+                   <button type="button" class="btn bg-danger text-light" data-bs-dismiss="modal">Cancle<i class="bi bi-x-lg m-1"></i></button>
+                   <button class="btn btn-secondary" type="button">send<i class="bi bi-send m-1"></i></button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+        <section id="send">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-danger text-light" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="bi bi-inbox m-2"></i>inbox(3)
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class=" accordion-body">
+                 
+                 <div class="row">
+                    <figure><img class="col-md-3" src="image\avatar3.png" alt=""></figure> 
+
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                  <div class="row">
+                    <figure><img class="col-md-3" src="image\avatar2.png" alt=""></figure>
+                    
+
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                  <div class="row">
+                    <figure><img class="col-md-3" src="image\avatar5.png" alt=""></figure>
+                    
+
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="bi bi-send m-2"></i>sent
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row">
+                    <figure><img class="col-md-3" src="image\avatar3.png" alt=""></figure>
+                    
+
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                  <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar3.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                   <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar5.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="bi bi-hourglass-bottom m-2"></i>drafts
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar3.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                  <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar3.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                   <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar5.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  <i class="bi bi-trash m-2"></i>trash
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                   <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar3.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa minima saepe alias vitae suscipit, minus dicta quisquam accusantium nobis doloremque nesciunt in repellendus non dolor aperiam veritatis et obcaecati? Quam!</p>
+                  <hr>
+                  <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar3.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum.</p>
+                  <hr>
+                   <div class="row">
+                    <figure>
+                    <img class="col-md-3" src="image\avatar5.png" alt="">
+</figure>
+                    <h5 class="col-md-9">Lorem ipsum </h5>
+                  </div>
+
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
+                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
+                    autem dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis sunt culpa laborum dolore esse a, repudiandae alias facilis. Autem, animi deserunt doloremque sapiente pariatur quidem eaque consequatur sit necessitatibus similique!</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </aside>
 
 
       <article class="col-md-9">
@@ -51,153 +302,7 @@
 
       </article>
 
-      <aside class="col-md-3">
-        <h3>w3school <span>.com</span></h3>
-        <!-- Button trigger modal -->
-        <div id="btn">
-          <button type="button" class="btn btn-primary w-100 py-4 " data-bs-toggle="modal"
-            data-bs-target="#exampleModal">
-            new massage<i class="bi bi-pen-fill m-2"></i>
-          </button>
-
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header bg-danger">
-                <h1 class="modal-title fs-5 text-light" id="exampleModalLabel ">send email</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                  aria-label="Close"></button>
-              </div>
-              <form class="p-5">
-                <label for="#">to</label><br>
-                <input class="w-100" type="text">
-
-                <label class="mt-3" for="#">form</label><br>
-                <input class="w-100" type="text">
-
-                <label class="mt-3" aria-hidden="true">subject</label><br>
-                <input class="w-100" type="text">
-
-                <div class="mt-3">
-                  <input class="w-100" type="text" placeholder="What's on your mind?">
-                </div>
-
-                <div class="d-flex justify-content-between mt-3">
-                  <button class="btn btn-secondary" type="button">send<i class="bi bi-send m-1"></i></button>
-                  <button class="btn bg-danger text-light" type="button">Cancel<i class="bi bi-x-lg m-1"></i></button>
-                </div>
-              </form>
-
-            </div>
-          </div>
-        </div>
-        <section id="send">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button bg-danger text-light" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <i class="bi bi-inbox m-2"></i>inbox(3)
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class=" accordion-body">
-                  <div class="row">
-                    <img class="col-md-3" src="image\avatar3.png" alt="">
-
-                    <h5 class="col-md-9">Lorem ipsum </h5>
-
-                  </div>
-
-
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
-                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
-                    autem dolorum.</p>
-                  <hr>
-                  <div class="row">
-                    <img class="col-md-3" src="image\avatar2.png" alt="">
-
-                    <h5 class="col-md-9">Lorem ipsum </h5>
-                  </div>
-
-
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
-                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
-                    autem dolorum.</p>
-                  <hr>
-                  <div class="row">
-                    <img class="col-md-3" src="image\avatar5.png" alt="">
-
-                    <h5 class="col-md-9">Lorem ipsum </h5>
-                  </div>
-
-
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, atque a possimus est quae
-                    eligendi magnam sunt impedit officia eveniet ipsam iure alias! Molestias commodi voluptatum officiis
-                    autem dolorum.</p>
-                  <hr>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <i class="bi bi-send m-2"></i>sent
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <i class="bi bi-hourglass-bottom m-2"></i>drafts
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                  <i class="bi bi-trash m-2"></i>trash
-                </button>
-              </h2>
-              <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-      </aside>
-
+     
 
     </section>
   </main>
